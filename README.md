@@ -1,4 +1,7 @@
 # Reverse Insertion Sort
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+
+I did not use any resources to get these answers
 
 Consider the code for insertion sort we covered in class:
 
@@ -36,3 +39,8 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+The conclusion I have come to is that the average case is also $\Theta(n^2)$,
+this is because you must run through the list at least once giving you an n 
+complexity, then you must also iterate over n/2 of the list again assuming the
+average case. However, constants don't matter therefor it is n^2.
